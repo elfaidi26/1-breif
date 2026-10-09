@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-youcode img{
+    width: 150px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+nav a:hover{
+    color: blue;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+
+
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.hero-content {
+    width: 50%;
+    margin-left: 50px;
+    
+}
+.hero-content h1{
+    font-size: 50px;
+    line-height: 0.9;
+}
+.paragraphe-1{
+    font-size: 20px;
+    font-weight: 200;
+}
